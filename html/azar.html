@@ -13,8 +13,50 @@
   </head>
   <body>
     <div class="w3-container w3-indigo">
-        <header><h2>Random Selector </h2></header>
+        <header><h2>Random Password Selector</h2></header>
     </div>
-    <script src="/JS/bgchange.js"></script>
+
+    <div class="w3-container" id="contenedor2">
+      <div class="card">
+        <header class="w3-container w3-purple" id="cardHeader">ENCABEZADO</header>
+
+        <input type="text" placeholder="Show Password Here" disabled>
+
+        <div class="w3-container" id="contenedorBotones">
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-primary">
+              Min. 1 Minúscula 
+              <input type="checkbox" name="" id="minus" autocomplete="off">  
+            </label>
+            
+            <label class="btn btn-primary">
+              Min. 1 Mayúscula 
+              <input type="checkbox" name="" id="mayus" autocomplete="off">  
+            </label>
+
+            <label class="btn btn-primary"> 
+              Min. 1 Número
+              <input type="checkbox" name="" id="numer" autocomplete="off"> 
+            </label>
+
+            <label class="btn btn-primary"> 
+              Min. 1 Símbolo
+              <input type="checkbox" name="" id="simbol" autocomplete="off"> 
+            </label>
+
+            <label class="btn btn-primary">
+              8 Alfanuméricos
+              <input type="checkbox" name="" id="alfanum" autocomplete="off">
+            </label>
+          </div>
+        </div>
+        
+        <footer class="w3-container w3-purple">Footer</footer>
+      </div>
+      <button onclick="rellenar()" class="w3-button w3-green" id="b1"> password </button>
+    </div>
+
+    <script src="/JS/azar.js"></script>
+    <link rel="stylesheet" href="/CSS/azar.css">
   </body>
 </html>

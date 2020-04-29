@@ -1,0 +1,51 @@
+body
+    {
+        background-color: blueviolet;
+    }
+
+h2
+    {
+        text-align: center;
+    }
+
+#contenedor2
+    {
+        padding-top: 10%;
+        padding-left: 30%;
+    }
+
+.card
+    {
+        width: 40%;
+        margin-left: 10% ;
+        background-color: darkslateblue;
+        color: yellowgreen;
+        font-family: monospace;
+    }
+
+.btn-group
+    {
+        color: yellowgreen;
+        flex-direction: column;
+        margin-top: 1%;
+        margin-left: 20%;
+    }  
+
+
+#b1
+    {
+        border-radius: 10px;
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 25%;
+    }
+
+header
+    {
+        text-align: center;
+    }
+
+footer
+    {
+        text-align: center;
+    }
