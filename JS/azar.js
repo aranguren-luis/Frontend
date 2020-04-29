@@ -1,5 +1,6 @@
 "use strict"
 
+var char = String.fromCharCode;
 
 //https://unicode-table.com/en/#control-character < 
 
@@ -30,9 +31,33 @@ function randomNumber()
 function symbolo()
     {
         var simbolo = "!@#$%&*";
-        return simbolo[ Math.floor( Math.random() * simbolo.length) ];
+        return simbolo[ Math.floor( Math.random() * simbolo.length ) ];
     };
 
+
+const regxs = 
+    {
+        "lower": /^[a-z0-9 ]+$/,
+        "upper": /^[A-Z0-9 ]+$/
+    }
+
+
+
+document.querySelector( ".userInput" ).onkeyup = function()
+    {
+        var tecleo           = document.querySelector( ".userInput" ).onkeyup; 
+        const cardHeader     = document.querySelector( "#cardHeader" );
+        var   userInput      = document.querySelector( ".userInput" ).value;
+        cardHeader.innerHTML = "<span class = 'text-success'>" + userInput.length + "</span>"; 
+
+        if( regxs.lower.test( userInput ) )
+            {
+                const minuscula     = document.querySelector("#minini");   
+                minuscula.innerHTML = "<input type='checkbox' checked>";  
+        
+            };
+
+    };
 
 
 

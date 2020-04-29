@@ -20,16 +20,16 @@
       <div class="card">
         <header class="w3-container w3-purple" id="cardHeader">ENCABEZADO</header>
 
-        <input type="text" placeholder="Show Password Here" disabled>
+        <input class="userInput" type="password" placeholder="Show Password Here" minlength="8" maxlength="14">
 
         <div class="w3-container" id="contenedorBotones">
           <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary">
+            <label class="btn btn-primary" id="minini">
               Min. 1 Minúscula 
               <input type="checkbox" name="" id="minus" autocomplete="off">  
             </label>
             
-            <label class="btn btn-primary">
+            <label class="btn btn-primary" id="mayuyu">
               Min. 1 Mayúscula 
               <input type="checkbox" name="" id="mayus" autocomplete="off">  
             </label>
@@ -53,10 +53,10 @@
         
         <footer class="w3-container w3-purple">Footer</footer>
       </div>
-      <button onclick="rellenar()" class="w3-button w3-green" id="b1"> password </button>
+      <button onclick="rellenar()" class="w3-button w3-green" id="b1"> listo </button>
     </div>
 
     <script src="/JS/azar.js"></script>
     <link rel="stylesheet" href="/CSS/azar.css">
-  </body>
+  </body>   
 </html>
