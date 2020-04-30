@@ -1,0 +1,32 @@
+#MainContainer
+    {
+        width: 30%;
+        margin-left: 35%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+
+#MainCard
+    {
+        border-radius: 10px;
+    }
+
+.MainHeader
+    {
+        background-color: blueviolet;
+        height: 100px;
+        border-radius: 10px 10px 0px 0px;
+        padding-top: 4%;
+    }
+
+ul
+    {
+        list-style-type: none;
+        text-align: center;
+    }
+
+h1
+    {
+        font-family: 'Alata';font-size: 40px;
+    }
