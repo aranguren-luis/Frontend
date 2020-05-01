@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--https://www.w3schools.com/w3css/default.asp    FUENTE DE W3-CSS--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- esta linea importa libreria W3-CSS -->
     <link rel="stylesheet" href="/CSS/ToDo.css">
@@ -18,12 +19,16 @@
             <header class="MainHeader">
                 <h1 class="MainTitle"> <span>{</span> To-Do List <span>}</span> </h1>
             </header>
-
+            <!--salto de linea-->
             <br>
 
             <input class="MainInput" type="text" autofocus placeholder="User Input" onfocus="this.value=''">
+            <!--botón que añade los items a la lista-->
             <button onclick="addInput()" class="w3-btn w3-green w3-round-large" >Add</button>
+
+            <!--botón que limpia la lista-->
             <button onclick="clearInput()" class="w3-btn w3-red w3-round-large" >Clear</button>
+
             <section class="MainSection">
                 <ul class="listInput">
                     <!--Aquí va insertando los inputs del usuario-->
