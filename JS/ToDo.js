@@ -10,7 +10,7 @@ function addInput()
 
         const listInput = document.querySelector( ".listInput" );
 
-        listInput.innerHTML += "<li>" + userInput + "</li>";
+        listInput.innerHTML += "<li>" + userInput +  "&nbsp;&nbsp;&nbsp;<input type='checkbox'></input>" + "</li>";
 
     };
 
