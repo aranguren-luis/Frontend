@@ -6,6 +6,10 @@
         margin-top: 5%;
     }
 
+.MainTitle:hover
+    {
+        color: white;
+    }
 
 #MainCard
     {
@@ -20,6 +24,11 @@
         padding-top: 4%;
     }
 
+.MainInput
+    {
+        border-radius: 5px;
+    }
+
 ul
     {
         list-style-type: none;
@@ -29,4 +38,25 @@ ul
 h1
     {
         font-family: 'Alata';font-size: 40px;
+    }
+
+.w3-btn
+    {
+        margin-bottom: 12px;
+        margin-left  : 10px;
+    }
+
+.w3-button:hover
+    {
+        background-color: rgb(223, 15, 15);
+    }
+
+span
+    {
+        color: red;
+    }
+
+li
+    {
+        font-family: fantasy;
     }

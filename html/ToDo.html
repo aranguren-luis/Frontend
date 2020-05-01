@@ -16,18 +16,17 @@
         <div class="w3-card w3-sand" id="MainCard">
 
             <header class="MainHeader">
-                <h1 class="w3-text-sand">To-Do App</h1>
+                <h1 class="MainTitle"> <span>{</span> To-Do List <span>}</span> </h1>
             </header>
 
             <br>
 
-            <input type="text" autofocus placeholder="User Input">
-            <button class="w3-button w3-green w3-round-large" >Add</button>
+            <input class="MainInput" type="text" autofocus placeholder="User Input" onfocus="this.value=''">
+            <button onclick="addInput()" class="w3-btn w3-green w3-round-large" >Add</button>
+            <button onclick="clearInput()" class="w3-btn w3-red w3-round-large" >Clear</button>
             <section class="MainSection">
-                <ul>
-                    <li>Uno</li>
-                    <li>Dos</li>
-                    <li>Tres</li>
+                <ul class="listInput">
+                    <!--Aquí va insertando los inputs del usuario-->
                 </ul>
             </section>
 
@@ -35,6 +34,6 @@
 
     </div>
     <link rel="stylesheet" href="/CSS/ToDo.css">
-    
+    <script src="/JS/ToDo.js"></script>
 </body>
 </html>
