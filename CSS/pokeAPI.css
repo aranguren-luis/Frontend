@@ -1,0 +1,17 @@
+.container
+    {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+input
+    {
+        border-radius: 5px;
+    }
+
+img
+    {
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
