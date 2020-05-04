@@ -20,8 +20,12 @@ fruta.comestible = true;
 fruta.tipo       = "fruta";
 fruta.nada       = function() { return "no hago nada" };
 fruta.colores    = [ "amarillo", "verde", "Blue Java", "Rouges" ];
-console.log(fruta);
+//console.log(fruta);
 
 var verFruta = document.querySelector( ".titulo" );
 verFruta.innerHTML = `<br>Fruta:       ${fruta.name}
                       <br>Colores:     ${fruta.colores}`;
+
+var frutaStringfy = JSON.stringify(fruta);
+
+console.log( JSON.parse( frutaStringfy ) );
