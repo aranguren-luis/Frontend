@@ -1,0 +1,15 @@
+body {
+    background-image : url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F1%2Fa%2F2%2F918628-desktop-wallpaper-pattern-1920x1080-for-ios.jpg&f=1&nofb=1');
+  }
+
+.container
+    {
+        color       :white;
+        text-align  : center;
+        padding-top : 10%;
+    }
+
+span
+    {
+        color : red;
+    }
