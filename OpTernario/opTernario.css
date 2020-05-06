@@ -1,0 +1,36 @@
+#body
+    {
+        background-color: lightgreen;
+    }
+
+.container
+    {
+        text-align  : center;
+        padding-top : 5%;
+        color       :black;
+    }
+
+span
+    {
+        color : red;
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+    {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+.cubo
+    {
+        width: 100px;
+        height: 100px;
+        background-color:lightcyan;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 5% 1%;
+    }
+
+
+
