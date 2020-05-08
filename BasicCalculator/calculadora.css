@@ -1,0 +1,39 @@
+    .w3-container
+    {
+        width   : 40%;
+        margin : 10% 30%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        border-radius: 10px;
+    }
+
+.w3-button
+    {
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+
+.btn-group
+    {
+        margin-top: 2%;
+        display: inline-block;
+    }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.w3-header w3-lobster {
+    font-family: "Lobster", serif;
+  }
+
+
+
